@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(66, 63, 63);
+}
+
+.main {
+    background-image: url("Netflix\ Assets/Images/Background.jpg");
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    width: 130px;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+}
+
+.navButton button {
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    background-color: red;
+    width: 60px;
+
+}
+
+.navButton button:first-child {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    width: 120px;
+}
+
+.content div {
+    height: 70vh;
+    display: flex;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.content div span:first-child {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content div span:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.content div span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.login {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    bottom: 140px;
+
+}
+
+.login input {
+    width: 400px;
+    text-align: start;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: 900;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.login button:nth-child(2) {
+    width: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 500;
+}
+.box1{
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    top: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    color: white;
+    text-align: start;
+}
+.content1 p:first-child{
+    font-size: 48px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    line-height: 100px;
+}
+.content1 p{
+    font-size: 24px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.tv img{
+    height: 420px;
+    position: relative;
+}
+.tv video{
+    height: 230px;
+    position: absolute;
+    right: 273px;
+    top: 118px;
+}
